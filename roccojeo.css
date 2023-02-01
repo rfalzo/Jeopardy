@@ -1,0 +1,66 @@
+body {
+    background-color: #060ce9;
+   }
+   
+   h1 {
+     text-align: center;
+     font-size: 10vw;
+     font-family: 'Lucida' Grande, sans-serif;
+     letter-spacing: .2rem;
+     color: white;
+   
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: black;
+   }
+   
+   #jeopardy {
+     text-align: center;
+     font-size: 9pt;
+     background-color: #115ff4;
+     color: white;
+     border-collapse: collapse;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   #jeopardy th, #jeopardy td {
+     border: solid 3px red;
+     
+     width: 12em;
+     padding: 1em;
+   }
+   
+   button {
+     cursor: help;
+     background-color:  #060ce9;
+     border: none;
+     color: white;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 30px;
+     font-family: Georgia, serif;
+     margin-left: 50%;
+     margin-right: 50%;
+
+     /* -webkit-text-stroke-width: 1.5px;
+     -webkit-text-stroke-color: black; */
+
+   }
+   
+   th {
+     text-transform: uppercase;
+     font-family: Helvetica, sans-serif;
+     font-weight: bold;
+     height: 4em;
+     text-shadow: rgb(0, 0, 0) 3px 3px;
+   }
+   
+   td {
+     height: 9em;
+     font-family: Helvetica, sans-serif;
+   }
+   
+   td:hover {
+     cursor: help;
+   }
